@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> College Website Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="Sub-header">
+        <nav>
+            <a href="index.html"> <img src="logo.png" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <ul>
+                    <li> <a href="first.html">HOME</a></li>
+                    <li> <a href="About.html">ABOUT</a></li>
+                    <li> <a href="course.html">COURSE</a></li>
+                    <li> <a href="Blog.html">BLOG</a></li>
+                    <li> <a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+   <!------contact us------>
+
+   <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d952520.
+    1040950352!2d79.07251009999999!3d21.16108585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+    1!5e0!3m2!1sen!2sin!4v1731605353582!5m2!1sen!2sin"
+     width="600" height="450" style="border:0;" allowfullscreen=""
+     loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </section>
+
+   
+   <section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                 <i class="fa-solid fa-house"></i>
+                 <span>
+                    <h5> XYZ Road,ABC Building</h5>
+                    <p>Nagpur, Maharashtra, INDIA</p>
+                </span>
+             </div>
+             <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5> +1 0123456789</h5>
+                    <p>Monday To Satrday, 10.00pm To 5.00pm</p>
+                </span>
+             </div>
+             <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5>info@agsyshgusdh.com</h5>
+                    <p>Email Us Your Query</p>
+                </span>
+             </div>
+        </div>
+        <div class="contact-col">
+        
+        <form action="">
+            <input type="text" placeholder="Enter Your Name" required>
+            <br><br>
+            <input type="Email" placeholder="Enter Your Email address" required>
+            <br><br>
+            <input type="text" placeholder="Enter Your Subject" required>
+            <br><br>
+            <textarea rows="8" placeholder="message" required></textarea>
+            <br><br>
+            <button type="submit" class="hero-btn red-btn">Send message</button>
+            <br><br>
+        </form>
+        </div>
+    </div>
+
+</section>
+
+
+ <!-----footer----->
+
+ <section class="footer">
+    <h4>About Us</h4>
+    <p>ARC Institute is a Treasure and Well Reputated
+        Institute For Building out our Programing Skills Better.
+         Best facilities and Faculties for Teaching.<br> 
+         Best Institute for IT Skills and Knowledge Arc Technologies and Institutions
+         Thank you for a great course.</p>
+         <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+         </div>
+         <p>Made With <i class="fa-regular fa-heart"></i> By Easy Tutorials</p>
+</section>
+
+    <!------javascript for toggle menu------>
+ 
+    <script>
+
+        var navLinks = document.getElementById("naviLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+    
+</body>
+</html>

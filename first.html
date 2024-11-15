@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> College Website Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"> <img src="logo.png" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <ul>
+                    <li> <a href="first.html">HOME</a></li>
+                    <li> <a href="About.html">ABOUT</a></li>
+                    <li> <a href="course.html">COURSE</a></li>
+                    <li> <a href="Blog.html">BLOG</a></li>
+                    <li> <a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    <div class="text-box">
+        <h1>ARC Institutions Of Technologies</h1>
+        <p> making Website is now one of the easiest thing in the world. 
+            you just need to learn HTML, CSS,<br> JavaScript and you are good to go.
+        </p>
+        <a href="" class="hero-btn"> Visit Us Know More</a>
+    </div>
+
+    </section>
+
+    <!-----campus----->
+
+    <section class="Campus">
+        <h1>Our Global Campus</h1>
+        <p>Arc Technologies and Institutions
+            Thank you for a great course.</p>
+
+        <div class="row">
+            <div class="Campus-col">
+                 <img src="london.png">
+                 <div class="layer">
+                    <h3>MUMBAI</h3>
+                 </div>
+            </div>  
+            <div class="Campus-col">
+                <img src="newyork.png">
+                <div class="layer">
+                   <h3>PUNE</h3>
+                </div>
+           </div>  
+           <div class="Campus-col">
+            <img src="washington.png">
+            <div class="layer">
+               <h3>NAGPUR</h3>
+            </div>
+       </div>    
+        </div>
+        
+    </section>
+
+    
+
+    <!------testimonials----->
+
+    <section class="testimonials">
+        <h1> What Our Students Says</h1>
+        <p>Arc Technologies and Institutions
+            Thank you for a great course.</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="sanu.jpeg">
+                <div>
+                    <p> Arc Technologies and Institutions
+                        Thank you for a great course.
+                         Great presentation style with lots of
+                          opportunities to ask questions and
+                           talk about real life examples which
+                            all made for a really enjoyable and 
+                            informative course.</p>
+                        <h3> Sanika Dandhare, FullStack Developer</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="tushar ori.jpeg">
+                <div>
+                    <p>ARC Institute is a Treasure and Well Reputated
+                         Institute For Building out our Programing Skills Better.
+                          Best facilities and Faculties for Teaching. 
+                          Best Institute for IT Skills and Knowledge</p>
+                        <h3>Tushar Pravin, Data Science</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----call to action------>
+
+    <section class="cta">
+        <h1>Enroll For The our Various Online Courses <br> Anywhere From The World</h1>
+        <a href="" class="hero-btn"> CONTACT US </a>
+    </section>
+
+    <!-----footer----->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>ARC Institute is a Treasure and Well Reputated
+            Institute For Building out our Programing Skills Better.
+             Best facilities and Faculties for Teaching.<br> 
+             Best Institute for IT Skills and Knowledge Arc Technologies and Institutions
+             Thank you for a great course.</p>
+             <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+             </div>
+             <p>Made With <i class="fa-regular fa-heart"></i> By Easy Tutorials</p>
+    </section>
+
+
+
+ <!------javascript for toggle menu------>
+ 
+    <script>
+
+        var navLinks = document.getElementById("naviLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+    
+</body>
+</html>
